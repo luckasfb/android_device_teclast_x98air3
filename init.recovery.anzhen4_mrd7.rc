@@ -28,7 +28,7 @@ service watchdogd /sbin/watchdogd
     user root
     oneshot
 
-service wdogcounter /system/bin/sh /init.watchdog.sh
+service wdogcounter /sbin/sh /init.watchdog.sh
     user root
     oneshot
     disabled

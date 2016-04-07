@@ -16,7 +16,8 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel \
-    device/teclast/x98air3/init.recovery.anzhen4_mrd7.rc:root/init.recovery.anzhen4_mrd7.rc
+    device/teclast/x98air3/init.recovery.anzhen4_mrd7.rc:root/init.recovery.anzhen4_mrd7.rc \
+    device/teclast/x98air3/fstab.anzhen4_mrd7:root/fstab.anzhen4_mrd7 \
     device/teclast/x98air3/init.watchdog.sh:root/init.watchdog.sh
 
 $(call inherit-product, build/target/product/full.mk)
